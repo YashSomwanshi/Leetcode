@@ -1,0 +1,3 @@
+For every even number, it will later put a 0, and for every odd number, it will put a 1. Finally, 
+it builds a new array where all the 0s (from evens) come first, followed by all the 1s (from odds).
+So basically: count evens → fill zeros, count odds → fill ones → return the new array.
