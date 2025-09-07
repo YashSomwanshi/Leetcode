@@ -1,0 +1,13 @@
+We need n numbers that add up to zero.
+
+If n is even just take pairs like 1 and -1, 2 and -2, and so on. Every pair cancels out.
+
+If n is odd do the same but in the end also put 0, so the total count becomes n.
+
+Ex:
+
+n = 4  [1, -1, 2, -2] sums to 0.
+
+n = 5  [1, -1, 2, -2, 0]  sums to 0.
+
+That’s it — pairs cancel and 0 is used only when needed.
