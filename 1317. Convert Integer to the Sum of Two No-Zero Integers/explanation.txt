@@ -1,0 +1,2 @@
+We check every possible split of n into a and b, and uses hasZero to skip numbers containing digit 0.
+It returns the first pair (a, b) found where both have no zeros.
