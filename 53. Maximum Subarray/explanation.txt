@@ -1,0 +1,4 @@
+I start with sum = 0 and set maxi to the smallest possible integer.
+I loop through each element in the array. If sum becomes negative, I reset it to 0 because a negative sum would only decrease the total.
+I add the current number to sum and update maxi if the new sum is greater than the previous maximum.
+After the loop, maxi holds the largest subarray sum, which I return as the answer.
