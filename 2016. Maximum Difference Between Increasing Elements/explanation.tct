@@ -1,0 +1,4 @@
+I start by setting mini to the first element and maxDiff to 0.
+As I loop through the array, I keep updating mini to the smallest value seen so far.
+For each element, I calculate the difference between the current number and mini, and update maxDiff if this difference is larger.
+After the loop, if maxDiff is still 0 or negative, I return -1 (meaning no valid pair was found). Otherwise, I return maxDiff
