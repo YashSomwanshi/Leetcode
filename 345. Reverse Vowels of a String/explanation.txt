@@ -1,0 +1,14 @@
+Brute Force:
+For each vowel from the start, I search for a vowel from the end and swap them. 
+This keeps shrinking the search space. 
+It works, but can be slow if there are many vowels.
+
+Better Solution:
+I collect all the vowels in a separate string, reverse that string,
+and then replace the vowels in the original string with the reversed ones. 
+
+
+
+Optimal Solution (Two Pointer):
+I use two pointers—one from the start and one from the end.
+I move both pointers towards each other, swapping vowels when both pointers find them
