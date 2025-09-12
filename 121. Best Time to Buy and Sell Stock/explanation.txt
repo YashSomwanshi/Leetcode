@@ -1,0 +1,4 @@
+I keep track of the lowest price seen so far (mini). As I go through the prices,
+I calculate the profit I’d make if I sold on that day (prices[i] - mini).
+If that profit is higher than my previous best, I update it. 
+This way, I always know the maximum profit I could get by buying at the lowest price before selling
