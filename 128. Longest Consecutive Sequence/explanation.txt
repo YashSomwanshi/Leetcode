@@ -1,0 +1,4 @@
+I use an unordered_set to store all the numbers, which lets me check for existence in constant time. 
+For each number, I only start counting a sequence if it’s the beginning (meaning num - 1 isn’t in the set). 
+Then, I keep checking for consecutive numbers (num + 1, num + 2, etc.) and count how long the sequence goes. 
+I update the longest sequence found. This way, each number is processed only once
